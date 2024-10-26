@@ -239,5 +239,17 @@ namespace ProyectoFinalSS.Formularios
         {
             cargarSeguimiento();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (gridSeguimiento.DataSource is DataTable dtSeguimiento)
+            {
+                var sortedData = dtSeguimiento.AsEnumerable()
+                    .OrderBy(column => int.Parse(column["Porcentaje"].ToString().Replace("%", "")))
+                    .CopyToDataTable();
+
+                gridSeguimiento.DataSource = sortedData;
+            }
+        }
     }
 }

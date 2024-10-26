@@ -78,7 +78,7 @@ namespace ProyectoFinalSS.Formularios
                 (comboBox1.Text == null || comboBox1.Text == "")
                 )
             {
-                MessageBox.Show("Favor llenar todos los datos del formulario", "Datos Obligatorios", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Favor llenar todos los datos del formulario :)", "Datos Obligatorios", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 camposValidos = false;
             }
 

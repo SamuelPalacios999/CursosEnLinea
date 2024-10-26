@@ -16,6 +16,7 @@ namespace ProyectoFinalSS
         public Login()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,9 +42,9 @@ namespace ProyectoFinalSS
                                     reader["NOMBRE_DE_USUARIO"].ToString(),
                                     Convert.ToInt32(reader["EDAD"]),
                                     reader["TIPO_USUARIO"].ToString());
+                                this.Hide();
                                 catedratico.ShowDialog();
                                 reader.Close();
-                                this.Close();
                             }
                             if (reader["TIPO_USUARIO"].ToString() == "ESTUDIANTE")
                             {

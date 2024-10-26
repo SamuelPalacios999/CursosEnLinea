@@ -11,7 +11,7 @@ namespace ProyectoFinalSS.DataBase
     {
         public static SqlConnection ConnectionDataBase()
         {
-            SqlConnection connect = new SqlConnection("Password=Umariano24;Persist Security Info=True;User ID=sa;Initial Catalog=PROYECTUMG;Data Source=DESKTOP-QCPB1VF\\MSSQLSERVER2");
+            SqlConnection connect = new SqlConnection("Password=123;Persist Security Info=True;User ID=sa;Initial Catalog=PROYECTUMG;Data Source=localhost");
             connect.Open();
             return connect;
         }

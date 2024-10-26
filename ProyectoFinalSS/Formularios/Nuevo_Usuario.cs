@@ -17,6 +17,7 @@ namespace ProyectoFinalSS.Formularios
         public Nuevo_Usuario()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             comboBox1.Items.Add("ESTUDIANTE");
             comboBox1.Items.Add("CATEDRATICO");
         }

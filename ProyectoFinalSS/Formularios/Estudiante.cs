@@ -23,6 +23,7 @@ namespace ProyectoFinalSS.Formularios
         public Estudiante(int id, string nombre, string apellido, string nombre_Usuario, int edad, string tipo_Usuario)
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.Id = id;
             this.Nombre = nombre;
             this.Apellido = apellido;

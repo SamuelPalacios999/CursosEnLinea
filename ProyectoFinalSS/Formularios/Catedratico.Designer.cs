@@ -41,9 +41,10 @@
             this.txtDiploma = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabSeguimiento = new System.Windows.Forms.TabPage();
+            this.btnRefrescar = new System.Windows.Forms.Button();
             this.gridSeguimiento = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnRefrescar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.controlCursos.SuspendLayout();
             this.tabCursos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridCursos)).BeginInit();
@@ -56,11 +57,10 @@
             this.controlCursos.AccessibleDescription = "Cursos";
             this.controlCursos.Controls.Add(this.tabCursos);
             this.controlCursos.Controls.Add(this.tabSeguimiento);
-            this.controlCursos.Location = new System.Drawing.Point(4, 2);
-            this.controlCursos.Margin = new System.Windows.Forms.Padding(4);
+            this.controlCursos.Location = new System.Drawing.Point(3, 2);
             this.controlCursos.Name = "controlCursos";
             this.controlCursos.SelectedIndex = 0;
-            this.controlCursos.Size = new System.Drawing.Size(847, 553);
+            this.controlCursos.Size = new System.Drawing.Size(635, 449);
             this.controlCursos.TabIndex = 0;
             // 
             // tabCursos
@@ -75,20 +75,20 @@
             this.tabCursos.Controls.Add(this.label3);
             this.tabCursos.Controls.Add(this.txtDiploma);
             this.tabCursos.Controls.Add(this.label2);
-            this.tabCursos.Location = new System.Drawing.Point(4, 25);
-            this.tabCursos.Margin = new System.Windows.Forms.Padding(4);
+            this.tabCursos.Location = new System.Drawing.Point(4, 22);
             this.tabCursos.Name = "tabCursos";
-            this.tabCursos.Padding = new System.Windows.Forms.Padding(4);
-            this.tabCursos.Size = new System.Drawing.Size(839, 524);
+            this.tabCursos.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabCursos.Size = new System.Drawing.Size(627, 423);
             this.tabCursos.TabIndex = 0;
             this.tabCursos.Text = "Cursos";
             this.tabCursos.UseVisualStyleBackColor = true;
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(389, 466);
+            this.btnLimpiar.Location = new System.Drawing.Point(292, 379);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(131, 34);
+            this.btnLimpiar.Size = new System.Drawing.Size(98, 28);
             this.btnLimpiar.TabIndex = 11;
             this.btnLimpiar.Text = "Limpiar Campos";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -96,9 +96,10 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(279, 466);
+            this.btnGuardar.Location = new System.Drawing.Point(209, 379);
+            this.btnGuardar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(93, 34);
+            this.btnGuardar.Size = new System.Drawing.Size(70, 28);
             this.btnGuardar.TabIndex = 10;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -108,12 +109,13 @@
             // 
             this.gridCursos.AllowUserToDeleteRows = false;
             this.gridCursos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridCursos.Location = new System.Drawing.Point(7, 255);
+            this.gridCursos.Location = new System.Drawing.Point(5, 207);
+            this.gridCursos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridCursos.Name = "gridCursos";
             this.gridCursos.ReadOnly = true;
             this.gridCursos.RowHeadersWidth = 51;
             this.gridCursos.RowTemplate.Height = 24;
-            this.gridCursos.Size = new System.Drawing.Size(825, 195);
+            this.gridCursos.Size = new System.Drawing.Size(619, 158);
             this.gridCursos.TabIndex = 9;
             this.gridCursos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridCursos_CellEnter_1);
             this.gridCursos.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.gridCursos_DataBindingComplete);
@@ -121,122 +123,124 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(233, 99);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(175, 80);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 16);
+            this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Nombre";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(325, 96);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombre.Location = new System.Drawing.Point(244, 78);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(271, 22);
+            this.txtNombre.Size = new System.Drawing.Size(204, 20);
             this.txtNombre.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(233, 151);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(175, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 16);
+            this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Descripción";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(325, 147);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDescripcion.Location = new System.Drawing.Point(244, 119);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(271, 22);
+            this.txtDescripcion.Size = new System.Drawing.Size(204, 20);
             this.txtDescripcion.TabIndex = 5;
             this.txtDescripcion.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(233, 203);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(175, 165);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 16);
+            this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "Diploma";
             // 
             // txtDiploma
             // 
-            this.txtDiploma.Location = new System.Drawing.Point(325, 200);
-            this.txtDiploma.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDiploma.Location = new System.Drawing.Point(244, 162);
             this.txtDiploma.Name = "txtDiploma";
-            this.txtDiploma.Size = new System.Drawing.Size(271, 22);
+            this.txtDiploma.Size = new System.Drawing.Size(204, 20);
             this.txtDiploma.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(340, 20);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(255, 16);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 33);
+            this.label2.Size = new System.Drawing.Size(150, 26);
             this.label2.TabIndex = 2;
             this.label2.Text = "Crear curso";
             // 
             // tabSeguimiento
             // 
+            this.tabSeguimiento.Controls.Add(this.button1);
             this.tabSeguimiento.Controls.Add(this.btnRefrescar);
             this.tabSeguimiento.Controls.Add(this.gridSeguimiento);
             this.tabSeguimiento.Controls.Add(this.label1);
-            this.tabSeguimiento.Location = new System.Drawing.Point(4, 25);
-            this.tabSeguimiento.Margin = new System.Windows.Forms.Padding(4);
+            this.tabSeguimiento.Location = new System.Drawing.Point(4, 22);
             this.tabSeguimiento.Name = "tabSeguimiento";
-            this.tabSeguimiento.Padding = new System.Windows.Forms.Padding(4);
-            this.tabSeguimiento.Size = new System.Drawing.Size(839, 524);
+            this.tabSeguimiento.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabSeguimiento.Size = new System.Drawing.Size(627, 423);
             this.tabSeguimiento.TabIndex = 1;
             this.tabSeguimiento.Text = "Seguimiento";
             this.tabSeguimiento.UseVisualStyleBackColor = true;
             // 
+            // btnRefrescar
+            // 
+            this.btnRefrescar.Location = new System.Drawing.Point(16, 52);
+            this.btnRefrescar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRefrescar.Name = "btnRefrescar";
+            this.btnRefrescar.Size = new System.Drawing.Size(76, 26);
+            this.btnRefrescar.TabIndex = 5;
+            this.btnRefrescar.Text = "Refrescar";
+            this.btnRefrescar.UseVisualStyleBackColor = true;
+            this.btnRefrescar.Click += new System.EventHandler(this.btnRefrescar_Click);
+            // 
             // gridSeguimiento
             // 
             this.gridSeguimiento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridSeguimiento.Location = new System.Drawing.Point(22, 113);
+            this.gridSeguimiento.Location = new System.Drawing.Point(16, 92);
+            this.gridSeguimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.gridSeguimiento.Name = "gridSeguimiento";
             this.gridSeguimiento.RowHeadersWidth = 51;
             this.gridSeguimiento.RowTemplate.Height = 24;
-            this.gridSeguimiento.Size = new System.Drawing.Size(790, 381);
+            this.gridSeguimiento.Size = new System.Drawing.Size(592, 310);
             this.gridSeguimiento.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(237, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(178, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(310, 33);
+            this.label1.Size = new System.Drawing.Size(243, 26);
             this.label1.TabIndex = 3;
             this.label1.Text = "Administrar cursos";
             // 
-            // btnRefrescar
+            // button1
             // 
-            this.btnRefrescar.Location = new System.Drawing.Point(22, 64);
-            this.btnRefrescar.Name = "btnRefrescar";
-            this.btnRefrescar.Size = new System.Drawing.Size(102, 32);
-            this.btnRefrescar.TabIndex = 5;
-            this.btnRefrescar.Text = "Refrescar";
-            this.btnRefrescar.UseVisualStyleBackColor = true;
-            this.btnRefrescar.Click += new System.EventHandler(this.btnRefrescar_Click);
+            this.button1.Location = new System.Drawing.Point(477, 55);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(131, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Ordenar por porcentaje";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Catedratico
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(855, 554);
+            this.ClientSize = new System.Drawing.Size(641, 450);
             this.Controls.Add(this.controlCursos);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Catedratico";
             this.Text = "Catedratico";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Catedratico_FormClosed);
@@ -269,5 +273,6 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.DataGridView gridSeguimiento;
         private System.Windows.Forms.Button btnRefrescar;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\bin\Debug\ProyectoFinalSS.exe.config
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\bin\Debug\ProyectoFinalSS.exe
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\bin\Debug\ProyectoFinalSS.pdb
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.csproj.AssemblyReference.cache
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.Properties.Resources.resources
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.csproj.GenerateResource.cache
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.csproj.CoreCompileInputs.cache
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.exe
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.pdb
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.Login.resources
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.Formularios.Estudiante.resources
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.Formularios.Nuevo_Usuario.resources
+C:\Users\Palacios\Documents\PALACIOS U\2024\PROGRA II\ProyectoFinalSS\ProyectoFinalSS\obj\Debug\ProyectoFinalSS.Formularios.Catedratico.resources

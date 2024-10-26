@@ -18,8 +18,8 @@ namespace ProyectoFinalSS.Formularios
         public string Nombre { set; get; }
         public string Apellido { set; get; }
         public string Nombre_Usuario { set; get; }
-        public int Edad {  set; get; }
-        public string Tipo_Usuario {  get; set; }
+        public int Edad { set; get; }
+        public string Tipo_Usuario { get; set; }
 
         public Estudiante(int id, string nombre, string apellido, string nombre_Usuario, int edad, string tipo_Usuario)
         {
@@ -31,8 +31,8 @@ namespace ProyectoFinalSS.Formularios
             this.Nombre_Usuario = nombre_Usuario;
             this.Edad = edad;
             this.Tipo_Usuario = tipo_Usuario;
-            cargarCursosDisponibles();
-            cargarCursosAsignados();
+
+            _ = refreshData();
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -128,10 +128,10 @@ namespace ProyectoFinalSS.Formularios
                         }
                     }
                     else
-                    {           
+                    {
                         MessageBox.Show("No seleccionó ningún curso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                    
+
                     cargarCursosDisponibles();
                     cargarCursosAsignados();
                 }
@@ -146,10 +146,11 @@ namespace ProyectoFinalSS.Formularios
         {
             cargarCursosAsignados();
         }
-        
+
         private void cargarCursosAsignados()
         {
             DataTable dtAsignados = new DataTable();
+            dtAsignados.Columns.Add("Codigo curso", typeof(int));
             dtAsignados.Columns.Add("Curso", typeof(string));
             dtAsignados.Columns.Add("Descripcion", typeof(string));
             dtAsignados.Columns.Add("Estado", typeof(string));
@@ -166,11 +167,12 @@ namespace ProyectoFinalSS.Formularios
                         SqlDataReader reader = cmd.ExecuteReader();
                         while (reader.Read())
                         {
+                            int id = (int)reader["ID"];
                             string curso = reader["CURSO"].ToString();
                             string descripcion = reader["DESCRIPCION"].ToString();
                             string estado = reader["ESTADO"].ToString();
                             int porcentaje = (int)reader["PORCENTAJE_DEL_CURSO"];
-                            dtAsignados.Rows.Add(curso, descripcion, estado, porcentaje);
+                            dtAsignados.Rows.Add(id, curso, descripcion, estado, porcentaje);
                         }
                     }
                     catch (Exception ex)
@@ -181,6 +183,79 @@ namespace ProyectoFinalSS.Formularios
             }
             gridAsignados.DataSource = dtAsignados;
             gridAsignados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int codigo = 0;
+                string estado = "COMPLETADO";
+                int porcentaje = 100;
+                using (SqlConnection con = DataBase.ConnectDataBase.ConnectionDataBase())
+                {
+                    if (gridAsignados.SelectedRows.Count > 0)
+                    {
+                        var filaSeleccionada = gridAsignados.SelectedRows[0];
+                        codigo = (int)filaSeleccionada.Cells["Codigo curso"].Value;
+                    }
+                    else if (gridAsignados.SelectedCells.Count > 0)
+                    {
+                        var celdaSeleccionada = gridAsignados.SelectedCells[0];
+                        var filaSeleccionada = gridAsignados.Rows[celdaSeleccionada.RowIndex];
+                        codigo = (int)filaSeleccionada.Cells["Codigo curso"].Value;
+                    }
+                    if (codigo > 0)
+                    {
+                        string Query = "EXEC [dbo].[SP_UPDATE_PERCENTAGE_COURSE] @ID_COURSE, @ID_STUDENT, @PERCENTAGE, @STATUS_COURSE";
+                        using (SqlCommand cmd = new SqlCommand(Query, con))
+                        {
+                            cmd.Parameters.AddWithValue("@ID_COURSE", codigo);
+                            cmd.Parameters.AddWithValue("@ID_STUDENT", this.Id);
+                            cmd.Parameters.AddWithValue("@PERCENTAGE", porcentaje);
+                            cmd.Parameters.AddWithValue("@STATUS_COURSE", estado);
+                            int lineas = cmd.ExecuteNonQuery();
+
+                            if (lineas > 0)
+                            {
+                                MessageBox.Show("Curso completado", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se actualizó ningun curso. Verifica los datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("No seleccionó ningún curso", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    cargarCursosDisponibles();
+                    cargarCursosAsignados();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private async Task refreshData () {
+            while (true)
+            {
+                try
+                {
+                    cargarCursosDisponibles();
+                    cargarCursosAsignados();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error al actualizar los datos: " + ex.Message);
+                }
+
+                await Task.Delay(45000);
+            }
         }
     }
 }

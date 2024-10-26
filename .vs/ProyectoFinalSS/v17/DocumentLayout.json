@@ -7,24 +7,16 @@
       "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\nuevo_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\nuevo_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|c:\\users\\palacios\\videos\\cursosenlinea\\proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|solutionrelative:proyectofinalss\\formularios\\catedratico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FC8FB2E-276E-4622-A1A1-B71543D775EA}|ProyectoFinalSS\\ProyectoFinalSS.csproj|C:\\Users\\Palacios\\Videos\\CursosEnLinea\\proyectofinalss\\database\\connectdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,7 +29,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 203,
+          "DockedWidth": 213,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -46,33 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Login.cs",
               "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Login.cs",
               "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Login.cs",
               "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Login.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAkAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADEAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T11:25:31.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Catedratico.cs",
               "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Catedratico.cs",
               "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Catedratico.cs",
               "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Catedratico.cs",
               "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Catedratico.cs",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAqwMYAAAAAAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAswP0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T11:12:59.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Nuevo_Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Nuevo_Usuario.cs",
               "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Nuevo_Usuario.cs",
@@ -85,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ConnectDataBase.cs",
               "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\DataBase\\ConnectDataBase.cs",
               "RelativeDocumentMoniker": "ProyectoFinalSS\\DataBase\\ConnectDataBase.cs",
@@ -99,7 +91,7 @@
           ]
         },
         {
-          "DockedWidth": 197,
+          "DockedWidth": 187,
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -108,57 +100,12 @@
               "Title": "Estudiante.cs",
               "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Estudiante.cs",
               "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Estudiante.cs*",
-              "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Estudiante.cs*",
-              "ViewState": "AQIAACYAAAAAAAAAAAAowDcAAAAlAAAA",
+              "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Estudiante.cs",
+              "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Estudiante.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T07:26:26.537Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "c073ace0-99d0-43ad-aaf5-06a89ba3e77c",
-        "Display": 1,
-        "X": -5,
-        "Y": 0,
-        "Width": 1347,
-        "Height": 773,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Estudiante.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Estudiante.cs",
-              "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Estudiante.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Estudiante.cs [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:13:27.804Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Catedratico.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Catedratico.cs",
-              "RelativeDocumentMoniker": "ProyectoFinalSS\\Formularios\\Catedratico.cs",
-              "ToolTip": "C:\\Users\\Palacios\\Videos\\CursosEnLinea\\ProyectoFinalSS\\Formularios\\Catedratico.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoFinalSS\\Formularios\\Catedratico.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T11:06:49.152Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
